@@ -34,21 +34,21 @@
 
 
 /* 메뉴 */
-#menu {width: 1280px; height: 252px; margin: 0 auto; align-content: flex-end;}
-#menu div {width: 460px; margin: 0 auto; padding-bottom: 1px; display: flex; justify-content: space-between; font-size: 20px;}
-#menu a {text-decoration: none; color: black; padding: 13px 20px;}
-#menu a:hover {border-bottom: 3px solid #1C6655;}
+#menu {width: 1280px; height: 152px; margin: 0 auto; align-content: flex-end;}
+#menu div {width: 460px; margin: 0 auto; display: flex; justify-content: space-between; font-size: 20px;}
+#menu a {border-bottom: 3px solid transparent; text-decoration: none; color: black; padding: 13px 20px;}
+#menu a:hover,#menu .active {border-bottom: 3px solid #1C6655;}
 
 
 
 /* 상품상세 */
 .imgbox {width: 1000px; margin: 0 auto;}
-.imgbox img {width: 100%;}
+.imgbox img {width: 100%; float: left;}
 
 
 
 /* 고객리뷰 */
-.review {width: 1280px; margin: 0 auto; margin-bottom: 100px;}
+.review {clear: both; width: 1280px; margin: 0 auto; margin-bottom: 100px;}
 .reviewTop {width: 100%; height: 100px; display: flex; flex-flow: row wrap; justify-content: space-between; align-items: flex-end;}
 .reviewTop> div {width: 17%; display: flex; align-items: center; justify-content: space-between;}
 .reviewTop h3 {font-size: 1.3em;}
